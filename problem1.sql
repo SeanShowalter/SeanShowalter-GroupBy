@@ -1,4 +1,4 @@
--- Problem 1
+SELECT artist, COUNT(song) FROM song GROUP BY artist;
 
 -- song table
 -- | id |     artist     |        album        |         song         |
